@@ -1,0 +1,46 @@
+:root {
+  --clr-pri: #5f9341;
+  --clr-sec: #fff;
+}
+
+body {
+  margin: 0 auto;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 400px;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 0.5em;
+  border: solid 1px var(--clr-pri);
+}
+
+button {
+  background-color: var(--clr-pri);
+  color: var(--clr-sec);
+  padding: 1em 2em;
+  border: 1px solid var(--clr-pri);
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#delete-btn {
+  color: var(--clr-pri);
+  background-color: var(--clr-sec);
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  line-height: 1.5rem;
+}
+
+a {
+  color: var(--clr-pri);
+}
